@@ -1,0 +1,92 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0b3d91;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  background: #6400aa;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  color: #bfff00;
+}
+nav a {
+  color: #bfff00;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  padding: 20px;
+  margin: 0 10%;
+}
+h2 {
+  color: #bfff00;
+  border-bottom: 2px solid #bfff00;
+  padding-bottom: 5px;
+}
+#rotating-globe {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+.info-globe {
+  color: #bfff00;
+  font-weight: bold;
+  animation: blink 1s infinite alternate;
+}
+@keyframes blink {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0.3;}
+}
+#services ul {
+  list-style: none;
+  padding: 0;
+}
+#services ul li {
+  background: #6400aa;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+form {
+  background: #330066;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-top: 20px;
+}
+form input, form textarea {
+  width: 100%;
+  margin: 5px 0 15px;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+}
+form button {
+  background: #bfff00;
+  border:none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+form button:hover {
+  background: #a0f000;
+}
+#whatsapp-btn {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background: #25d366;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 28px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
